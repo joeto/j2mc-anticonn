@@ -35,6 +35,8 @@ public class Monitor extends JavaPlugin implements Listener {
                 return;
             }
             map.put(ip, count);
+        }else{
+            map.put(ip, 1);
         }
     }
     
