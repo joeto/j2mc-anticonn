@@ -2,18 +2,18 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>to.joe</groupId>
-  <artifactId>j2mc-antiflood</artifactId>
+  <artifactId>j2mc-anticonn</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>j2mc-antiflood</name>
-  <url>http://www.github.com/joeto/j2mc-antiflood</url>
+  <name>j2mc-anticonn</name>
+  <url>http://www.github.com/joeto/j2mc-anticonn</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-    <connection>scm:git:git://github.com/joeto/j2mc-antiflood/j2mc-antiflood.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/joeto/j2mc-antiflood/j2mc-antiflood.git</developerConnection>
-    <url>s://www.github.com/joeto/j2mc-antiflood</url>
+    <connection>scm:git:git://github.com/joeto/j2mc-anticonn/j2mc-anticonn.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/joeto/j2mc-anticonn/j2mc-anticonn.git</developerConnection>
+    <url>s://www.github.com/joeto/j2mc-anticonn</url>
   </scm>
   <repositories>
     <repository>
@@ -63,7 +63,7 @@
           <archive>
             <manifestEntries>
               <Main-Class>Main</Main-Class>
-              <Implementation-Title>j2mc-antiflood</Implementation-Title>
+              <Implementation-Title>j2mc-anticonn</Implementation-Title>
               <Implementation-Version>${describe}</Implementation-Version>
               <Implementation-Vendor>j2</Implementation-Vendor>
             </manifestEntries>
